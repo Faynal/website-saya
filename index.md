@@ -5,7 +5,14 @@ title: Beranda
 
 # Halo, Selamat Datang!
 
-Situs web ini dibuat hanya menggunakan file **Markdown (`index.md`)** dan dihosting otomatis oleh GitHub Pages.
+Situs web sederhana ini dibuat secara terbuka, memberikan informasi **Kesehatan Website (`gratis`)** untuk pelaku UMKM seluruh Indonesia.
+
+Untuk menganalisa dan memantau performa secara praktis dan menyeluruh, saya menggunakan 4 alat utama ini:
+
+1. **Google PageSpeed Insights:** Untuk mengecek kecepatan & kualitas halaman
+2. **Google Search Console:** Untuk memantau pencarian & indeksasi Google
+3. **Google Analytics (GA4):** Untuk melacak trafik & alur belanja
+4. **UptimeRobot:** Untuk menjaga toko tetap online & merespons cepat
 
 ## Fitur Utama
 - **Tanpa HTML rumit:** Cukup tulis teks dengan format Markdown biasa.
