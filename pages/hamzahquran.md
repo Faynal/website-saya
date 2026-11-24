@@ -45,4 +45,4 @@
 - Hirarki elemen judul (*heading order*) belum tersusun secara berurutan.
 
 ---
-[Action Plan](2026-11-23-action-plan.md) 
+[Action Plan](_posts/2026-11-23-action-plan.md) 
