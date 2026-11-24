@@ -1,40 +1,50 @@
 <!DOCTYPE html>
-   <html lang="{{ site.lang | default: "en-US" }}">
-     <head>
-       <meta charset='utf-8'>
-       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <meta name="viewport" content="width=device-width, initial-scale=1">
-       <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-       {% seo %}
-     <style>
-#main_content img, 
-main img, 
-article img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-     </style>
-     </head>
+    <!-- 1. Preconnect ke Domain Font untuk Memotong Latency (Penghematan ~622 ms) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-     <body>
-       <header>
-         <div class="inner">
-           <a href="{{ '/' | relative_url }}">
-             <h1>{{ site.title | default: site.github.repository_name }}</h1>
-           </a>
-           <h2>{{ site.description | default: site.github.project_tagline }}</h2>
-         </div>
-       </header>
+    <!-- 2. Pemuatan Google Fonts dengan parameter &display=swap -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap">
 
-       <div id="content-wrapper">
-         <div class="inner clearfix">
-           <!-- Tag <main> untuk memenuhi standar aksesibilitas Lighthouse -->
-           <main id="main_content" role="main">
-             {{ content }}
-           </main>
-         </div>
-       </div>
-     </body>
-   </html>
+    <!-- 3. Stylesheet Utama Website -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    {% seo %}
+
+    <style>
+      #main_content img, 
+      main img, 
+      article img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <a href="{{ '/' | relative_url }}">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        </a>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <!-- Tag <main> semantik untuk Aksesibilitas 100 -->
+        <main id="main_content" role="main">
+          {{ content }}
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
