@@ -20,7 +20,7 @@ Untuk menganalisa dan memantau performa secara praktis dan menyeluruh, saya meng
 - **Dukungan lebih lanjut:** Anda bisa melanjutkan kerjasama dengan komitmen.
 
 ## Halaman Dukungan UMKM
-- [hamzahquran](hamzahquran.md)
+- [hamzahquran](pages/hamzahquran.md)
 
 ---
 
