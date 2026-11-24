@@ -2,7 +2,7 @@
 layout: default
 title: Beranda
 ---
-
+<main>
 # Halo, Selamat Datang!
 
 Situs web sederhana ini dibuat secara terbuka, memberikan informasi **Kesehatan Website (`gratis!`)** untuk pelaku UMKM seluruh Indonesia.
@@ -23,3 +23,4 @@ Untuk menganalisa dan memantau performa secara praktis dan menyeluruh, saya meng
 - [hamzahquran](hamzahquran.md)
 
 ---
+</main>
