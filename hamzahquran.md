@@ -1,4 +1,4 @@
-![Skor 23/11/2026](psi_23-11.jpg)
+![Skor 23/11/2026](images/23-11-2026_psi.jpg)
 # Ringkasan Audit PageSpeed Insights (Lighthouse) — hamzahquran.com
 
 ## 1. Skor Kategori Utama
