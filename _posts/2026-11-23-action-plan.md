@@ -1,3 +1,8 @@
+---
+title: "Action-Plan"
+date: 2026-11-23
+---
+
 # Daftar Prioritas Perbaikan Teknis — hamzahquran.com
 
 Disusun berdasarkan besarnya dampak terhadap performa, Core Web Vitals, dan pengalaman pengguna (*User Experience*).
